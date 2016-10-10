@@ -227,7 +227,7 @@ hr {
 }
 /* About Section */
 #about {
-	padding: 140px 0;
+	padding: 70px 0;
 	background: #f6f6f6;
 }
 #about .about-text {
@@ -256,7 +256,7 @@ hr {
 	background: url(../img/services-bg.jpg);
 	background-size: cover;
 	background-attachment: fixed;
-	padding: 140px 0;
+	padding: 70px 0;
 }
 
 .categories {
@@ -345,6 +345,10 @@ ol.type li a:hover {
   padding-right: 5px;
 }
 
+#team .middot {
+-webkit-text-fill-color: #000;
+  -webkit-text-stroke-color: #000;
+}
 
 .portfolio-item .hover-bg {
 	max-height: 190px;
@@ -410,12 +414,12 @@ ol.type li a:hover {
 }
 /* Team Section */
 #team {
-	padding: 140px 0;
+	padding: 70px 0;
 	background: #e6e6e6;
 }
 img.img-thumbnail.team-img {
-	width: 200px;
-	height: 200px;
+    width: 446px;
+    height: 283px;
 	border: 0;
 	border-radius: 0;
 	background-color: #f6f6f6;
@@ -428,13 +432,17 @@ img.img-thumbnail.team-img {
 	padding: 9px;
 	color: #777;
 }
+
+#team p {
+	color: #555;
+}
 /* Testimonials Section */
 #testimonials {
 	background: url(../img/testimonials-bg.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	color: #ddd;
-	padding: 140px 0;
+	padding: 70px 0;
 }
 #testimonials h2 {
 	color: #f6f6f6;
