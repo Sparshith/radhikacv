@@ -224,7 +224,6 @@ hr {
 }
 .section-title h2, .section-title.center h2 {
 	margin-bottom: 30px;
-	color: #f6f6f6;
 }
 /* About Section */
 #about {
@@ -328,8 +327,12 @@ ol.type li a:hover {
 	padding-bottom: 10px;
 }
 .portfolio-item h4 {
-	color: #ffffff;
+	color: #f6f6f6;
 }
+#works  h2 {
+	color: #f6f6f6;
+}
+
 .portfolio-item li {
 	color: rgba(255,255,255,0.7);
 }
