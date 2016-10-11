@@ -417,7 +417,7 @@ ol.type li a:hover {
 	padding: 70px 0;
 	background: #e6e6e6;
 }
-img.img-thumbnail.team-img {
+#team img.img-thumbnail.team-img {
     width: 446px;
     height: 283px;
 	border: 0;
@@ -443,7 +443,7 @@ img.img-thumbnail.team-img {
 	padding: 70px 0;
 	background: #e6e6e6;
 }
-img.img-thumbnail.team-img {
+#interests img.img-thumbnail.team-img {
     width: 342px;
     height: 283px;
 	border: 0;
