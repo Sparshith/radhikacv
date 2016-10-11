@@ -683,7 +683,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 
 #myCarousel {
-	padding-top: 40px;
+	padding-top: 5px;
 }
 
 #myCarousel .carousel-card {
@@ -706,10 +706,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	position: absolute;
 	top: 50%;
 	color: #f6f6f6;
-}
-
-#testimonials .section-title.center {
-	padding-top: 0px;
 }
 
 #testimonials h2 {
