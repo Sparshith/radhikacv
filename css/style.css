@@ -684,7 +684,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 #myCarousel {
 	padding-top: 40px;
-	background: rgba(255,255,255, 0.1);
 }
 
 #myCarousel .carousel-card {
@@ -709,6 +708,12 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	color: #f6f6f6;
 }
 
+#testimonials h2 {
+	display: inline-block;
+    padding: 10px;
+    background: #555;
+    opacity: 0.8;
+}
 .youtube-iframe {
 	padding-top: 10px;
     padding-bottom: 10px;
