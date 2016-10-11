@@ -708,6 +708,10 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	color: #f6f6f6;
 }
 
+#testimonials .section-title.center {
+	padding-top: 0px;
+}
+
 #testimonials h2 {
 	display: inline-block;
     padding: 10px;
