@@ -32,6 +32,13 @@ function main() {
 
   	}) 
 
+
+    //Disabling carousel 
+
+    $('.carousel').carousel({
+      interval: false
+    }); 
+
    // Page scroll
   	$('a.page-scroll').click(function() {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
