@@ -692,6 +692,9 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	width: 70%;
 	margin: auto;
 	min-height: 600px;
+	padding: 20px;
+    background: #555;
+    opacity: 0.8;
 }
 
 #myCarousel .carousel-card span {
