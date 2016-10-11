@@ -463,6 +463,11 @@ ol.type li a:hover {
 	color: #555;
 }
 
+#cv {
+	padding: 70px 0;
+	background: #f6f6f6;
+}
+
 /* Testimonials Section */
 #testimonials {
 	background: url(../img/portfolio/ieeewie.jpg);
@@ -496,7 +501,7 @@ ol.type li a:hover {
 /* Contact Section */
 #contact {
 	padding: 40px 0 70px;
-	background: #f6f6f6;
+	background: #e6e6e6;
 }
 #contact .contact-item {
 	padding: 10px;
