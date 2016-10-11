@@ -345,7 +345,7 @@ ol.type li a:hover {
   padding-right: 5px;
 }
 
-#team .middot {
+#team .middot, #interests .middot {
 -webkit-text-fill-color: #000;
   -webkit-text-stroke-color: #000;
 }
@@ -436,6 +436,33 @@ img.img-thumbnail.team-img {
 #team p {
 	color: #555;
 }
+
+/* interests */
+
+#interests {
+	padding: 70px 0;
+	background: #e6e6e6;
+}
+img.img-thumbnail.team-img {
+    width: 342px;
+    height: 283px;
+	border: 0;
+	border-radius: 0;
+	background-color: #f6f6f6;
+}
+#interests .thumbnail {
+	background: transparent;
+	border: 0;
+}
+#interests .thumbnail .caption {
+	padding: 9px;
+	color: #777;
+}
+
+#interests p {
+	color: #555;
+}
+
 /* Testimonials Section */
 #testimonials {
 	background: url(../img/portfolio/ieeewie.jpg);
@@ -468,7 +495,7 @@ img.img-thumbnail.team-img {
 }
 /* Contact Section */
 #contact {
-	padding: 120px 0 40px 0;
+	padding: 40px 0 70px;
 	background: #f6f6f6;
 }
 #contact .contact-item {
@@ -486,9 +513,13 @@ img.img-thumbnail.team-img {
 	padding: 30px 0;
 }
 #contact i.fa {
-	font-size: 22px;
+	font-size: 35px;
 	color: #e75926;
 	margin-bottom: 10px;
+}
+
+#contact a {
+	font-size: 35px;
 }
 #contact .text-danger {
 	color: #ff3333;
@@ -692,8 +723,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin: auto;
 	min-height: 600px;
 	padding: 20px;
-    background: #555;
-    opacity: 0.8;
+   	background: rgba(85, 85, 85, 0.8);
 }
 
 #myCarousel .carousel-card span {
@@ -701,6 +731,15 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	font-weight: 600;
 	color: #f6f6f6;
 }
+
+#myCarousel .carousel-card a:hover,  #works .portfolio-item a:hover {
+	color:#F4D03F;
+}
+
+#myCarousel .carousel-card a, #works .portfolio-item a{
+	color:#F55555;
+}
+
 
 #testimonials i {
 	position: absolute;
@@ -714,10 +753,24 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
     background: #555;
     opacity: 0.8;
 }
+
+#testimonials img {
+	height: 300px;
+    width: 400px;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: rgba(85, 85, 85, 1);
+}
+
 .youtube-iframe {
 	padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
+}
+
+.youtube-iframe iframe {
+	background: rgba(85, 85, 85, 1);
 }
 
 #contact i {
