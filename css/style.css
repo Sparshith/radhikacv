@@ -698,6 +698,12 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 		color:#919191;
 	}
 
+	#about .quote {
+		font-size: 20px;
+		padding-top: 20px;
+		display: inline-block;
+	}
+
 /* About Box Rollover */
 
 	#about .about-boxes .about-box:hover a.about-icon{
