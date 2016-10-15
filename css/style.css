@@ -1,5 +1,5 @@
 body, html {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Dosis', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: #777;
@@ -182,8 +182,9 @@ hr {
 }
 #intro .intro-body H1 {
 	font-size: 76px;
-	font-weight: 700;
+	font-weight: 500;
 	color: rgba(255,255,255,0.8);
+	padding-left: 20px;
 }
 #intro .intro-body .brand-heading {
 	color: #E75926;
@@ -533,7 +534,7 @@ ol.type li a:hover {
 label {
 	font-size: 12px;
 	font-weight: 400;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Dosis', sans-serif;
 	float: left;
 }
 #contact .form-control {
