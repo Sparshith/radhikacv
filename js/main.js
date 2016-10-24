@@ -20,6 +20,10 @@ function main() {
 
 	
 	});
+
+  $(".lazy").lazyload({
+    effect : "fadeIn"
+  }).removeClass('lazy');
 	
 	// Preloader */
 	  	$(window).load(function() {
